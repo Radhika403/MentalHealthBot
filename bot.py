@@ -115,10 +115,10 @@ def get_response(user_input):
     return response
 
 
-flag = True
-while(flag):
-  user_input = input("Type Here >> ")
-  if(user_input == "exit"):
-    flag = False
-  else:
-    print(get_response(user_input))
+# flag = True
+# while(flag):
+#   user_input = input("Type Here >> ")
+#   if(user_input == "exit"):
+#     flag = False
+#   else:
+#     print(get_response(user_input))
